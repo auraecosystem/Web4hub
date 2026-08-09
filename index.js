@@ -14,7 +14,7 @@ const pusher = Pusher.getInstance();
     
   await pusher.connect();
   await pusher.subscribe({
-    channelName: "my-channel", 
+    channelName: "web4hub", 
     onEvent: (event: PusherEvent) => {
       console.log(`Event received: ${event}`);
     }
