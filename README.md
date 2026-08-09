@@ -2,7 +2,7 @@
 # Web4hub
 
 ```god
-package main
+package my-app
 
 import "github.com/pusher/pusher-http-go/v5"
 
