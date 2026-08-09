@@ -2,15 +2,15 @@
 # Web4hub
 
 ```god
-package my-app
-
+package main
+server func ()
 import "github.com/pusher/pusher-http-go/v5"
 
 func main(){
   pusherClient := pusher.Client{
-    AppID: "2184708",
-    Key: "5551079ec0aee047975f",
-    Secret: "60e1fbbd5d59f771e929",
+    AppID: "l",
+    Key: "",
+    Secret: "l",
     Cluster: "mt1",
     Secure: true,
   }
