@@ -1,0 +1,2 @@
+composer require pusher/pusher-php-server
+npm install @pusher/pusher-websocket-react-native
